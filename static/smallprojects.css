@@ -1,0 +1,293 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #C1C1C1;
+	background-image:url(images-sp/background.png)
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+
+
+
+#header h1
+{
+display:block;
+float:left;
+line-height:70px;
+margin-left:17px;
+width:230px;
+color:#FFFFFF;
+text-align:left;
+font-size:23px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+float:left;
+
+}
+
+
+#header ul {
+	padding: 0px;
+	list-style-type: none;
+	height:21px;
+	text-align:center;
+	height:85px;
+	overflow:hidden;
+}
+#header ul li , #header ul li a, #header ul li a:visited{
+	display:block;
+	float:left;
+	margin: 0px;
+	text-align:center;
+	line-height:72px;
+	width:133px;
+	color:#FFFFFF;
+
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#header ul li a:hover{
+color:#CCCCCC;
+}
+
+
+
+#main 
+{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+
+#main .main_top
+{
+height:85px;
+width:921px;
+background-image:url(images-sp/main_top.png);
+background-repeat:no-repeat;
+}
+
+#main .main_body
+{
+
+padding-left:0px;
+height:auto;
+width:921px;
+background-image:url(images-sp/main_body.png);
+background-repeat:repeat-y;
+color:#000000;
+padding-bottom:20px;
+
+
+}
+
+#main .main_body_bottom
+{
+
+padding-left:0px;
+height:auto;
+width:921px;
+background-image:url(images-sp/main_body.png);
+background-repeat:repeat-y;
+color:#000000;
+padding-bottom:20px;
+
+
+}
+
+
+#main .main_top h1
+{
+font-size:24px;
+line-height:85px;
+color:#000000;
+padding-left:25px;
+background-image:url(images-sp/header_h1_bg.png);
+/*background-image:url(images-sp/logo-527x85.png);*/
+background-position:right;
+background-repeat:no-repeat;
+padding-top: 0px;
+margin-right:25px;
+}
+
+#main .main_body p
+{
+line-height:19px;
+letter-spacing:1px;
+padding-top:10px;
+padding-bottom:5px;
+padding-left:20px;
+padding-right:20px;
+}
+
+#main .main_body_bottom p
+{
+line-height:19px;
+letter-spacing:1px;
+padding-top:10px;
+padding-bottom:5px;
+padding-left:20px;
+padding-right:20px;
+}
+
+
+#main .main_bottom
+{
+height:8px;
+width:921px;
+background-image:url(images-sp/main_bottom.png);
+background-repeat:no-repeat;
+}
+
+
+#page
+{
+  margin: 0 auto 0 auto; 
+  margin-top:25px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 921px;
+}
+
+#header
+{
+background-image:url(images-sp/header.png);
+background-repeat:no-repeat;
+width:921px;
+height:72px;
+}
+
+
+
+#footer {
+display:block;
+width: 921px;
+height:74px;
+background: url(images-sp/footer.png) no-repeat;
+text-align:right;
+font-size:9px;
+line-height:75px;
+}
+
+#footer p{
+padding-right:20px;
+text-align:right;
+}
+
+#footer, #footer a, #footer a:visited{
+color:#FFFFFF;
+}
+
+#footer a:hover{
+text-decoration:none;
+color:#CCCCCC;
+}
+
+table, td, td {
+   border: 0px;
+   letter-spacing:1px;
+}
+
+table.wikitable {
+    margin-left: 25px;
+    width: 75%;
+    align: center;
+   font-size: 13px;
+}
+
+table.wikitable td {
+//    text-align: right;
+   vertical-align: top;
+   letter-spacing:1px;
+   font-size: 13px;
+   line-height: 19px;
+}
+
+ul {
+    letter-spacing:1px;
+}
+
+table#donate td {
+    text-align:center;
+    vertical-align:top;
+}
+
+/* google wallet */
+form#BB_BuyButtonForm table tbody tr td {
+    padding: 0px;
+}
+
+/* hupso share toolbar */
+div#hupso {
+    padding-top: 8px;
+    margin-left: auto;
+    margin-right: 0;
+    width: 157px;
+}
+
+div#hupso a.hupso_toolbar img {
+    padding-top: 18px;
+}
+
+
+div.donate {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.donate a img {
+    padding-left: 320px
+}
+
+/* menu bar */
+#cssmenu a, #cssmenu a:link {
+    border-radius: 5px 5px 5px 5px;
+    color: #E7E5E5;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+#cssmenu ul {margin: 0; padding: 7px 6px 0; background: #7d7d7d url(images-sp/overlay.png) repeat-x 0 -110px; line-height: 100%; border-radius: 1em; font: normal 1.0em Arial, Helvetica, sans-serif; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4); -moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);}
+#cssmenu li {margin: 0 5px; padding: 0 0 8px; float: left; position: relative; list-style: none; }
+#cssmenu a,
+#cssmenu a:link {font-weight: bold; color: #e7e5e5; text-decoration: none; display: block; padding:  8px 20px; margin: 0; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;	 text-shadow: 0 1px 1px rgba(0,0,0, .3); }
+#cssmenu a:hover {background: #000; color: #fff;}
+#cssmenu .active a, 
+#cssmenu li:hover > a {background: #666 url(images-sp/overlay.png) repeat-x 0 -40px; color: #444; border-top: solid 0px #f8f8f8; -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2); -moz-box-shadow: 0 1px 1px rgba(0,0,0, .2); box-shadow: 0 1px 1px rgba(0,0,0, .2); text-shadow: 0 1px 0 rgba(255,255,255, 1); }
+#cssmenu ul ul li:hover a,
+#cssmenu li:hover li a {background: none; border: none; color: #666; -webkit-box-shadow: none; -moz-box-shadow: none;}
+#cssmenu ul ul a:hover {background: #8f8f8f url(images-sp/overlay.png) repeat-x 0 -100px !important; color: #fff !important; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; text-shadow: 0 1px 1px rgba(0,0,0, .1);}
+#cssmenu li:hover > ul {display: block;}
+#cssmenu ul ul {display: none; margin: 0; padding: 0; width: 185px; position: absolute; top: 40px; left: 0; background: #ddd url(images-sp/overlay.png) repeat-x 0 0; border: solid 1px #b4b4b4; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .3); -moz-box-shadow: 0 1px 3px rgba(0,0,0, .3); box-shadow: 0 1px 3px rgba(0,0,0, .3);}
+#cssmenu ul ul li {float: none; margin: 0; padding: 3px; }
+#cssmenu ul ul a {font-weight: normal; text-shadow: 0 1px 0 #fff; }
+#cssmenu ul:after {content: '.'; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+* html #cssmenu  ul {height: 1%;}
